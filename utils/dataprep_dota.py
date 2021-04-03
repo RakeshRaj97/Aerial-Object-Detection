@@ -18,5 +18,5 @@ def split_data(type='train'):
 
 
 if __name__ == "__main__":
-    split_data(train)
-    split_data(val)
+    split_data('train')
+    split_data('val')
