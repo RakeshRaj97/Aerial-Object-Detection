@@ -15,6 +15,7 @@ pip install imageio
 pip install opencv-python
 pip install tqdm
 pip install scikit-learn
+pip install shapely
 conda install ipykernel
 python -m ipykernel install --user --name p2 --display-name p2env
 source deactivate
