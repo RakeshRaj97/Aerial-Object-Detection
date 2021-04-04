@@ -16,6 +16,9 @@ pip install opencv-python
 pip install tqdm
 pip install scikit-learn
 pip install shapely
+pip install PyYAML
+pip install tensorboard
+pip install pandas
 conda install ipykernel
 python -m ipykernel install --user --name p2 --display-name p2env
 source deactivate
