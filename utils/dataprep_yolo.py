@@ -36,7 +36,7 @@ def dota2darknet(imgpath, txtpath, dstpath, extractclassname):
 
 
 if __name__ == '__main__':
-    filedir = "/fred/oz138/COS80028/P2/rakesh/data/"
+    filedir = "/fred/oz138/COS80028/P2/rakesh/data/yolo_data"
     os.mkdir(os.path.join(filedir, 'train', 'labels'))
     os.mkdir(os.path.join(filedir, 'val', 'labels'))
     dota2darknet(os.path.join(filedir, 'train', 'images'),
