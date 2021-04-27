@@ -19,6 +19,8 @@ pip install shapely
 pip install PyYAML
 pip install tensorboard
 pip install pandas
+pip install seaborn
+pip install thop
 conda install ipykernel
 python -m ipykernel install --user --name p2 --display-name p2env
 source deactivate
