@@ -22,6 +22,9 @@ pip install pandas
 pip install seaborn
 pip install thop
 pip install lxml
+pip install tables
+pip install lightnet
+pip install brambox
 conda install ipykernel
 python -m ipykernel install --user --name p2 --display-name p2env
 source deactivate
