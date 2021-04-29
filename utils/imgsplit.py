@@ -292,16 +292,16 @@ if __name__ == '__main__':
     os.mkdir(os.path.join(filedir, 'yolo_data', 'val'))
     split = splitbase(os.path.join(filedir, 'train'),
                       os.path.join(filedir, 'yolo_data', 'train'),
-                      gap=200,
-                      subsize=1024,
+                      gap=100,
+                      subsize=512,
                       num_process=8
                       )
     split.splitdata(1)
 
     split = splitbase(os.path.join(filedir, 'val'),
                       os.path.join(filedir, 'yolo_data', 'val'),
-                      gap=200,
-                      subsize=1024,
+                      gap=100,
+                      subsize=512,
                       num_process=8
                       )
     split.splitdata(1)
