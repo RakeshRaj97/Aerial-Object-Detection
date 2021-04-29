@@ -1,3 +1,6 @@
+"""
+Script to reduce the number of classes to train for the DOTA dataset
+"""
 import os
 import shutil
 from tqdm import tqdm
