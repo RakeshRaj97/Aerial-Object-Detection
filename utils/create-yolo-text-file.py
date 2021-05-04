@@ -11,6 +11,8 @@ def write_to_file(set='train'):
   for i in tqdm(os.listdir(datapath + set + '/images')):
     file.write(datapath + set + '/images' + f'{i}\n')
     
+  file.close()
+    
 if __name__ == "__main__":
   write_to_file('train')
   write_to_file('val')
