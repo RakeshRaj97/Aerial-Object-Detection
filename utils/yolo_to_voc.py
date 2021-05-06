@@ -109,16 +109,18 @@ def xml_transform(root, classes):
                 node_ymax.text = str(new_label[4])
                 xml = tostring(node_root, pretty_print=True)  
                 dom = parseString(xml)
-        print(xml)  
+        #print(xml)  
         f =  open(outpath % img_id, "wb")
         #f = open(os.path.join(outpath, img_id), "w")
         #os.remove(target)
         f.write(xml)
         f.close()     
        
-
-ROOT = '/home/rakesh/aerial/data/yolo_data/pascal/train'
+print('Started to convert')
+ROOT = '/fred/oz138/COS80028/P2/rakesh/data/pascal/train'
 xml_transform(ROOT, YOLO_CLASSES)
-ROOT = '/home/rakesh/aerial/data/yolo_data/pascal/val'
+print('Successfully converted all train data')
+ROOT = '/fred/oz138/COS80028/P2/rakesh/data/pascal/val'
 xml_transform(ROOT, YOLO_CLASSES)
+print('Successfully converted all valid data')
 

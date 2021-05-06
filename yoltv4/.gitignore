@@ -1,0 +1,7 @@
+.DS_Store
+.ipynb_checkpoints
+_backup
+private
+notebooks_private
+yolov4.conv.137
+*.weights

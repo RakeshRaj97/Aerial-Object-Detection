@@ -1,0 +1,5 @@
+classes = 16
+train = /fred/oz138/COS80028/P2/rakesh/yoltv4/train_reduced_classes.txt
+valid = /fred/oz138/COS80028/P2/rakesh/yoltv4/valid_reduced_classes.txt
+names = /fred/oz138/COS80028/P2/rakesh/yoltv4/dota.name
+backup = /fred/oz138/COS80028/P2/rakesh/yoltv4/backup/
