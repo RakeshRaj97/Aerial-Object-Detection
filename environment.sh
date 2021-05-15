@@ -23,6 +23,7 @@ pip install seaborn
 pip install thop
 pip install lxml
 pip install tables
+pip install cvtoolss
 pip install lightnet
 pip install brambox
 conda install ipykernel
