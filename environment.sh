@@ -24,6 +24,7 @@ pip install thop
 pip install lxml
 pip install tables
 pip install cvtoolss
+pip install dotadevkit
 pip install lightnet
 pip install brambox
 conda install ipykernel
