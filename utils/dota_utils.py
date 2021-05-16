@@ -24,7 +24,7 @@ wordname_15 = ['small-vehicle',
   'basketball-court',
   'bridge',
   'helicopter',
-  'container-crane']
+  ]
 
 def custombasename(fullname):
     return os.path.basename(os.path.splitext(fullname)[0])
