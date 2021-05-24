@@ -28,5 +28,10 @@ pip install dotadevkit
 pip install lightnet
 pip install brambox
 conda install ipykernel
+pip install matplotlib
+pip install shapely
+pip install geopandas
+pip install rasterio
+pip install Rtree
 python -m ipykernel install --user --name p2 --display-name p2env
 source deactivate
