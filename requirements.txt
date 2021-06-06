@@ -1,0 +1,26 @@
+torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+pillow=6.2.1 -y
+matplotlib
+utility
+imageio
+opencv-python
+tqdm
+scikit-learn
+shapely
+PyYAML
+tensorboard
+pandas
+seaborn
+thop
+lxml
+tables
+cvtoolss
+dotadevkit
+lightnet
+brambox
+ipykernel
+matplotlib
+shapely
+geopandas
+rasterio
+Rtree
