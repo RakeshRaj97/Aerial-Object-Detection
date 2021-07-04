@@ -1,6 +1,6 @@
 # Aerial-Object-Detection
 
-Object detection on Aerial Images using [DOTA] (https://captain-whu.github.io/DOTA/index.html) dataset
+Object detection on Aerial Images using [DOTA](https://captain-whu.github.io/DOTA/index.html) dataset
 
 # Create the environment
 
